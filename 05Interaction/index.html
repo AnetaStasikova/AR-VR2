@@ -37,7 +37,8 @@
           to: 360 45 0;
           startEvents: mouseleave; 
           dur: 2000;
-          loop:true"
+          loop:true;
+          easing:linear"
           animation__mouseleave2="
           property: components.material.material.color; 
           type: color;
@@ -58,6 +59,7 @@
           to: 0 360 0; 
           startEvents: mouseenter; 
           dur: 500;
+          easing: linear;
           loop: true">  
       </a-box>
       <a-plane id="ground"
