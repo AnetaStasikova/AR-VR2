@@ -31,7 +31,7 @@
         material="src: #wood"
         shadow 
         animation="property: position; 
-                   to: -1 5 -5; 
+                   to: -1 4 -5; 
                    dur: 5000; 
                    elasticity: 10000;
                    easing: linear; 
@@ -50,14 +50,19 @@
       </a-box>
       <a-sphere 
        position="-1 5 -5" 
-       radius="0.2" 
+       radius="0.1" 
        color="#C9D7F8"
        animation__6="property:position;
        to: 10 5 -5;
        dur:5000;
        easing: linear;
        loop:false;
-       delay:5000">
+       delay:5000"
+       animation__7= "property:visible;
+       from:false;
+       to:true;
+       dur:5000;
+       loop:false">
        </a-sphere>
       <a-box id="myOtherBox" 
         position="2 1 -3" 
