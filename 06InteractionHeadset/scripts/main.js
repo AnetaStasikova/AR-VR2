@@ -16,10 +16,7 @@ myOtherBox.addEventListener('click', function(){
 	console.log('entered');
 });
 
-myOtherBox.addEventListener('click', function(){
-	rotationSpeed = 0.001;
-	console.log('left');
-});
+
 
 
 
