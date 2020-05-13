@@ -37,7 +37,13 @@
           to: 360 45 0;
           startEvents: mouseleave; 
           dur: 2000;
-          loop:true">  
+          loop:true"
+          animation__mouseleave2="
+          property: components.material.material.color; 
+          type: color;
+          to: red;
+          startEvents: mouseleave; 
+          dur: 0;">  
       </a-box>
       <a-box id="myOtherBox" 
         position="2 1 -3"  
