@@ -33,7 +33,7 @@ var growspeed = 1.2;
  	myOtherBox.object3D.scale.x *= growspeed;
  	myOtherBox.object3D.scale.y *= growspeed;
  	myOtherBox.object3D.scale.z *= growspeed;
- 	//console.log(myOtherBox.object3D.scale);
+ 	console.log(myOtherBox.object3D.scale);
  }
 
  myOtherBox.addEventListener('click', function(){ // uses a fuse
