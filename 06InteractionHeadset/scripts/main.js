@@ -28,7 +28,7 @@ console.log(myBox.object3D.rotation);
 }
 setInterval(rotate,5);
 
-myBox.addEventListener('click' function(){
+myBox.addEventListener('click', function(){
 	rotate();
 	rotationSpeed = 0.01;
 	console.log ('rotation');
