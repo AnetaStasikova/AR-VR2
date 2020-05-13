@@ -20,8 +20,19 @@ myOtherBox.addEventListener('mouseleave', function(){
 	console.log('left');
 });
 
+var myBox = document.getElementById('myBox');
 
+function rotate (){
+myBox.object3D.rotation.x += rotationSpeed;
+console.log(myBox.object3D.rotation);	
+}
+setInterval(rotate,5);
 
+myBox.addEventListener('click' function(){
+	rotate();
+	rotationSpeed = 0.01;
+	console.log ('rotation');
+});
 
 /*
  * click-events can use a fuse (default on mobile). So the event only fires, if the cursor is on the object for a specified time. 
