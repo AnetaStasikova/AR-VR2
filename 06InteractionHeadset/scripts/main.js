@@ -12,7 +12,7 @@ setInterval(spin, 10);
 
 
 myOtherBox.addEventListener('click', function(){
-	rotationSpeed = 0.01;
+	spin();
 	console.log('entered');
 });
 
