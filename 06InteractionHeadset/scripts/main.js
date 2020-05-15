@@ -29,13 +29,11 @@ console.log(myBox.object3D.rotation);
 setInterval(rotate,5);
 
 myBox.addEventListener('click', function(){
-	rotate();
-	rotationSpeed = 0.01;
+		rotationSpeed = 0.01;
 	console.log ('rotation');
 });
 myBox.addEventListener('mouseleave', function(){
-	rotate();
-	rotationSpeed = 0.001;
+		rotationSpeed = 0.001;
 	console.log ('rotationdone');
 });
 
