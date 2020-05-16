@@ -35,7 +35,7 @@ var growspeed = 1.2;
 
 
 var myBox = document.getElementById('myBox');
-var myBoxRotation = 0.01;
+var myBoxRotation = 0.001;
 function rotate (){
 myBox.object3D.rotation.x += myBoxRotation;
 console.log(myBox.object3D.rotation);	
