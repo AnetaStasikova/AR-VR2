@@ -40,7 +40,7 @@ function rotate (){
 myBox.object3D.rotation.x += myBoxRotation;
 console.log(myBox.object3D.rotation);	
 }
-setInterval(rotate,5);
+setInterval(rotate,10);
 
 myBox.addEventListener('click', function(){
 		myBoxRotation = 0.01;
